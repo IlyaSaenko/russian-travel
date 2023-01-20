@@ -1,5 +1,12 @@
 .lead__image {
-    width: 984px;
-    height: 615px;
-    margin-top: 64px;
+    width: 100%;
+    grid-row: 1;
+    grid-column: 1;
+    /* margin-top: 64px; */
 }
+
+@media screen and (max-width: 769px) {
+    .lead__image {
+      grid-row: auto;
+    }
+  }

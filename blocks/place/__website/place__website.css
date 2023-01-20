@@ -1,5 +1,30 @@
 .place__website {
-    max-width: 456px;
-    align-self: flex-end;
+    /* max-width: 456px; */
+    align-self: end;
     border: #AAAAAA;
 }
+
+@media screen and (max-width: 1024px) {
+    .place__website {
+        width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .place__website {
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .place__website {
+        grid-column: 1;
+        padding: 0 16px 0 16px;
+
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .place__website {
+      width: 50%;
+    }
+  }

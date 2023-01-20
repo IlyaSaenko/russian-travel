@@ -6,3 +6,31 @@
     line-height: 58px;
     align-self: flex-start;
 }
+
+@media screen and (max-width: 1024px) {
+    .intro__title {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .intro__title {
+      width: 90%;
+      font-size: 38px;
+      line-height: 44px;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .intro__title {
+      font-size: 26px;
+      line-height: 30px;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .intro__title {
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }

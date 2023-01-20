@@ -7,3 +7,60 @@
     font-size: 18px;
     line-height: 163%;
 }
+
+.places__paragraph:last-of-type {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__paragraph {
+      width: 95%;
+    }
+  }
+
+  .places__paragraph:last-of-type {
+    margin-bottom: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    .place__paragraph {
+      margin: auto;
+      grid-column: 1;
+
+      margin-bottom: 16px;
+      font-size: 16px;
+      line-height: 144%;
+    }
+  }
+
+  .places__paragraph:last-of-type {
+    margin-bottom: 0;
+  }
+  
+  @media screen and (max-width: 425px) {
+    .place__paragraph {
+      width: 90%;
+      margin: auto;
+      margin-bottom: 16px;
+      font-size: 12px;
+      line-height: 136%;
+    }
+  }
+
+  .places__paragraph:last-of-type {
+    margin-bottom: 0;
+  }
+
+  @media screen and (max-width: 320px) {
+    .place__paragraph {
+      width: 90%;
+      margin: auto;
+      margin-bottom: 16px;
+      font-size: 16px;
+      line-height: 163%;
+    }
+  }
+
+  .places__paragraph:last-of-type {
+    margin-bottom: 0;
+  }

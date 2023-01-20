@@ -7,3 +7,31 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead__caption {
+      width: 95%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .lead__caption {
+      width: 90%;
+      font-size: 8px;
+      line-height: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .lead__caption {
+      font-size: 6px;
+      line-height: 8px;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .lead__caption {
+      font-size: 4px;
+      line-height: 6px;
+    }
+  }

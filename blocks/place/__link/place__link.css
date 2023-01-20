@@ -14,3 +14,31 @@
     opacity: 50%;
     color:aqua;
 }
+
+@media screen and (max-width: 1024px) {
+    .place__link {
+      width: 95%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .place__link {
+      width: 90%;
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .place__link {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .place__link {
+      font-size: 10px;
+      line-height: 14px;
+    }
+  }
