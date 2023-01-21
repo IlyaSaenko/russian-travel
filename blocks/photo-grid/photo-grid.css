@@ -24,22 +24,14 @@
   
   @media screen and (max-width: 768px) {
     .photo-grid {
-      width: 95%;
-      grid-gap: 10px;
+      max-width: 95%;
     }
   }
   
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 320px) {
     .photo-grid {
-        width: 50%;
-      padding-top: 36px;
-      grid-gap: 8px;
-    }
-  }
-  
-  @media screen and (max-width: 375px) {
-    .photo-grid {
-      max-width: 35%;
-      grid-gap: 6px;
+      max-width: 90%;
+      grid-gap: 12px;
+      grid-template-columns: repeat(auto-fit, minmax(248px, 1fr));
     }
   }
