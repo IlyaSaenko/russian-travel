@@ -3,7 +3,7 @@
     max-width: 1184px;
     margin: 0 auto;
     /* min-height: 52px; */
-    padding-top: 28px;
+    padding: 28px 0 56px;
     justify-content: space-between;
     /* border: blue solid 1px; */
 }
@@ -17,24 +17,18 @@
   @media screen and (max-width: 1024px) {
     .header {
       width: 90.5%;
+      padding-bottom: 48px;
     }
   }
   
   @media screen and (max-width: 768px) {
     .header {
-      width: 90.5%;
+      width: 93.5%;
     }
   }
   
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 320px) {
     .header {
-      width: 90.5%;
-      padding-top: 14px;
-    }
-  }
-  
-  @media screen and (max-width: 375px) {
-    .header {
-      width: 95.5%;
+      width: 90%;
     }
   }
