@@ -8,7 +8,7 @@
     position: relative;
     flex-direction: column;
     justify-content: center;
-    background-image: url('/images/cover-trains.jpg');
+    background-image: url('../../../images/cover-trains.jpg');
     background-position: center;
     background-size: cover;
     text-decoration: none;

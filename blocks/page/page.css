@@ -17,13 +17,13 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .content {
+    .page {
       max-width: 1024px;
     }
   }
   
   @media screen and (max-width: 768px) {
-    .content {
+    .page {
       max-width: 768px;
     }
   }
