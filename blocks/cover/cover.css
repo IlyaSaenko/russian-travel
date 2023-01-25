@@ -6,6 +6,12 @@
     flex-direction: column;
 }
 
+@media screen and (max-width: 1200px) {
+    .cover {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .cover {
         width: 100%;

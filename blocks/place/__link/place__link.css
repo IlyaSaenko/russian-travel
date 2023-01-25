@@ -1,4 +1,5 @@
-.place__link {
+ .place__link {
+  max-width: 456px;
     margin: 0;
     margin-bottom: 12px;
     transition: .3s ease-in-out;
@@ -14,26 +15,3 @@
     opacity: 50%;
     color:aqua;
 }
-
-@media screen and (max-width: 1024px) {
-    .place__link {
-      width: 95%;
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .place__link {
-      width: 90%;
-      font-size: 18px;
-      line-height: 22px;
-    }
-  }
-  
-
-  @media screen and (max-width: 375px) {
-    .place__link {
-      width: 288px;
-      font-size: 18px;
-      line-height: 22px;
-    }
-  }
