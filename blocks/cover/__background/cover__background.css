@@ -32,7 +32,7 @@
     opacity: 0.7;
   }
 
-  @media screen and (max-width: 1210px) {
+  @media screen and (max-width: 1220px) {
     .cover__background {
     min-height: 700px;
     object-fit: contain;
@@ -42,7 +42,6 @@
   @media screen and (max-width: 1024px) {
     .cover__background {
     min-height: 640px;
-    object-fit: contain;
     }
   }
   
@@ -55,6 +54,5 @@
   @media screen and (max-width: 320px) {
     .cover__background {
     min-height: 200px;
-    justify-content: flex-start;
     }
   }

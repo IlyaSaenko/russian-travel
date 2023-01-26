@@ -6,21 +6,19 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
+    letter-spacing: .8px;
 }
 
 @media screen and (max-width: 900px) {
     .place__title {
-      font-size: 62px;
-      line-height: 68px;
+      font-size: 42px;
+    line-height: 46px;
     }
   }
   
   @media screen and (max-width: 767px) {
     .place__title {
       max-width: 340px;
-      height: 92px;
-      font-size: 42px;
-      line-height: 46px;
     }
   }
   

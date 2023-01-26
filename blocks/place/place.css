@@ -20,7 +20,13 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: minmax(min-content, 300px) minmax(320px, 1fr);
+  }
+}
+
+@media screen and (max-width: 950px) {
   .place {
     column-gap: 28px;
     padding-bottom: 72px;
