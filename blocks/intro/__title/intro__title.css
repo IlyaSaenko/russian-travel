@@ -1,27 +1,3 @@
- /* .intro__title {
-    max-width: 690px;
-    margin-bottom: 40px;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 54px;
-    line-height: 58px;
-    align-self: flex-start;
-    display: flex;
-} */
-
-/* @media screen and (max-width: 1024px) {
-    .intro__title {
-      width: 100%;
-    }
-  }
-  
-  @media screen and (max-width: 480px) {
-    .intro__title {
-      font-size: 32px;
-      line-height: 35px;
-    }
-  } */
-
   .intro__title {
     margin: 0;
     margin-bottom: 40px;

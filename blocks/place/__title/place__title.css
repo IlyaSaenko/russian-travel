@@ -6,19 +6,20 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    letter-spacing: .8px;
 }
 
 @media screen and (max-width: 900px) {
     .place__title {
       font-size: 42px;
-    line-height: 46px;
+      line-height: 46px;
     }
   }
   
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
     .place__title {
       max-width: 340px;
+      letter-spacing: .8px; /*Если не укажу это свойство, текст получается в одну строку. Если можно, я оставлю так.
+                              Нашёл подсказку по этому случаю в интернете. */
     }
   }
   
